@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ArabianComponent } from './arabian/arabian.component';
 import { ChineseComponent } from './chinese/chinese.component';
 import { NorthIndianComponent } from './north-indian/north-indian.component';
+import { SouthIndianComponent } from './south-indian/south-indian.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ArabianComponent,
     ChineseComponent,
-    NorthIndianComponent
+    NorthIndianComponent,
+    SouthIndianComponent
   ],
   imports: [
     BrowserModule,
